@@ -20,12 +20,20 @@ function Footer() {
         </svg>
        
     <div className="grid grid-flow-col gap-4">
-    <FaGithub fontSize={30}/>
-      <Link to='/' className='text-lg font-bold align-middle'></Link>
-    <AiTwotoneMail fontSize={30}  />
-      <Link to='/' className='text-lg font-bold align-middle'></Link>
-    <FaLinkedin fontSize={30}/>
-      <Link to='/' className='text-lg font-bold align-middle'></Link>
+      <div className='text-lg font-bold align-middle'>
+          <a href="https://github.com/Payal1bharti" target="_blank"
+          rel="noreferrer" ><FaGithub fontSize={30}/></a>
+      </div>
+    
+      <div className='text-lg font-bold align-middle'>
+          <a href="https://github.com/Payal1bharti" target="_blank"
+          rel="noreferrer" ><AiTwotoneMail fontSize={30} /></a>
+      </div>
+      <div className='text-lg font-bold align-middle'>
+      <a href="https://www.linkedin.com/in/payal-bharti-b05834220/" target="_blank"
+          rel="noreferrer"><FaLinkedin fontSize={30}/></a>
+      </div>
+      
     </div>
       <p>Copyright &copy; {footerYear} All rights reserved</p>
         </div>
